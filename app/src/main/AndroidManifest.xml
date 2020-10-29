@@ -26,6 +26,7 @@
         <activity android:name="com.Rf0x.prierezove_moduly.MainActivity">
 
 
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

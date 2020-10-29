@@ -27,7 +27,6 @@ class Kruh : AppCompatActivity() {
         }
 
         nazad.setOnClickListener {
-            setContentView(R.layout.activity_main)
             val yy = Intent(this, MainActivity::class.java)
             startActivity(yy)
 
