@@ -8,22 +8,25 @@
 
     <EditText
         android:id="@+id/dv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintStart_toEndOf="@+id/dr2"
+        android:layout_width="155dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="248dp"
+        android:layout_marginTop="28dp"
+        android:text="0"
+        android:background="@null"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="250dp"
         android:layout_marginBottom="250dp"
         android:text="výsledok [mm3]"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/dr1" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/dr1"
