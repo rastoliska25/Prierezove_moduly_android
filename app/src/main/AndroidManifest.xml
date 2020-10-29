@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.prierezove_moduly">
+    package="com.Rf0x.prierezove_moduly">
 
 
     <supports-screens
@@ -17,13 +17,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Obdlznik"></activity>
-        <activity android:name=".Kruh"></activity>
-        <activity android:name=".Jokel"></activity>
-        <activity android:name=".Iprofil"></activity>
-        <activity android:name=".Dutykruh"></activity>
-        <activity android:name=".Cprofil"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.Rf0x.prierezove_moduly.Obdlznik"></activity>
+        <activity android:name="com.Rf0x.prierezove_moduly.Kruh"></activity>
+        <activity android:name="com.Rf0x.prierezove_moduly.Jokel"></activity>
+        <activity android:name="com.Rf0x.prierezove_moduly.Iprofil"></activity>
+        <activity android:name="com.Rf0x.prierezove_moduly.Dutykruh"></activity>
+        <activity android:name="com.Rf0x.prierezove_moduly.Cprofil"></activity>
+        <activity android:name="com.Rf0x.prierezove_moduly.MainActivity">
 
 
             <intent-filter>

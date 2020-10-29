@@ -1,4 +1,4 @@
-package com.example.prierezove_moduly
+package com.Rf0x.prierezove_moduly
 
 import org.junit.Test
 

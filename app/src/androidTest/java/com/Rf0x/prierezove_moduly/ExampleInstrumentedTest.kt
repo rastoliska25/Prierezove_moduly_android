@@ -1,4 +1,4 @@
-package com.example.prierezove_moduly
+package com.Rf0x.prierezove_moduly
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

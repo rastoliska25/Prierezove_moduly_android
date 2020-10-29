@@ -1,11 +1,10 @@
-package com.example.prierezove_moduly
+package com.Rf0x.prierezove_moduly
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.cprofil.*
-import kotlinx.android.synthetic.main.obdlznik.*
 import kotlinx.android.synthetic.main.obdlznik.nazad
 import kotlinx.android.synthetic.main.obdlznik.vypocet2
 

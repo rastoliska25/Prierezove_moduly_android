@@ -7,7 +7,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.prierezove_moduly"
+        applicationId "com.Rf0x.prierezove_moduly"
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1
