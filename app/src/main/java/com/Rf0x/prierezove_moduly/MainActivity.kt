@@ -52,6 +52,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(x5)
         }
 
+        exit.setOnClickListener {
+            finishAffinity();
+            System.exit(0);
+        }
+
+
+
+
 
     }
 
