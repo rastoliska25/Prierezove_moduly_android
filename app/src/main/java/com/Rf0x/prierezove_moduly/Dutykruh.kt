@@ -13,9 +13,12 @@ class Dutykruh : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.dutykruh)
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        );
 
-var pi = PI
+        var pi = PI
 
         val dr1 = findViewById<EditText>(R.id.dr1)
         val dr2 = findViewById<EditText>(R.id.dr2)
@@ -23,7 +26,7 @@ var pi = PI
         vypocet3.setOnClickListener {
             val r2 = dr1.text.toString().toFloat()
             val r1 = dr2.text.toString().toFloat()
-            val z =((pi*((r2*r2*r2*r2)-(r1*r1*r1*r1)))/(4*r2))
+            val z = ((pi * ((r2 * r2 * r2 * r2) - (r1 * r1 * r1 * r1))) / (4 * r2))
             val qq = String.format("%.2f", z)
             dv.setText("$qq")
         }
@@ -40,8 +43,6 @@ var pi = PI
 
 
         }
-
-
 
 
     }

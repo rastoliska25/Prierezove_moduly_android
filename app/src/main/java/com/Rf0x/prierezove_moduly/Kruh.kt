@@ -13,7 +13,10 @@ class Kruh : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.kruh)
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        );
 
         var pi = PI
 
@@ -21,8 +24,8 @@ class Kruh : AppCompatActivity() {
 
         vypocet6.setOnClickListener {
             val r = kr.text.toString().toFloat()
-            val d = 2*r
-            val z =((pi*(d*d*d))/32)
+            val d = 2 * r
+            val z = ((pi * (d * d * d)) / 32)
             val qq = String.format("%.2f", z)
             kv.setText("$qq")
         }

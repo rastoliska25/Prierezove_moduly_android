@@ -8,14 +8,15 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.jokel.*
 import kotlinx.android.synthetic.main.jokel.nazad
 
-class Jokel  : AppCompatActivity() {
+class Jokel : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.jokel)
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-
-
+        getWindow().setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        );
 
 
         val jx1 = findViewById<EditText>(R.id.jx1)
@@ -30,7 +31,7 @@ class Jokel  : AppCompatActivity() {
             val h1 = jh1.text.toString().toFloat()
             val h2 = jh2.text.toString().toFloat()
 
-            val z =(((x1*(h1*h1))/6)-((x2*(h2*h2*h2))/(6*h1)))
+            val z = (((x1 * (h1 * h1)) / 6) - ((x2 * (h2 * h2 * h2)) / (6 * h1)))
             val qq = String.format("%.2f", z)
             jv.setText("$qq")
         }

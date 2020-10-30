@@ -14,7 +14,10 @@ class Cprofil : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.cprofil)
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(
+            WindowManager.LayoutParams.FLAG_FULLSCREEN,
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        );
 
 
         val cx1 = findViewById<EditText>(R.id.cx1)
@@ -29,9 +32,9 @@ class Cprofil : AppCompatActivity() {
             val h1 = ch1.text.toString().toFloat()
             val h2 = ch2.text.toString().toFloat()
 
-            val z =(((x1*(h1*h1))/6)-((x2*(h2*h2*h2))/(6*h1)))
+            val z = (((x1 * (h1 * h1)) / 6) - ((x2 * (h2 * h2 * h2)) / (6 * h1)))
             val qq = String.format("%.2f", z)
-           cv.setText("$qq")
+            cv.setText("$qq")
         }
 
 
