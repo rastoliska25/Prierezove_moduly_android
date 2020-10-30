@@ -24,7 +24,8 @@ var pi = PI
             val r2 = dr1.text.toString().toFloat()
             val r1 = dr2.text.toString().toFloat()
             val z =((pi*((r2*r2*r2*r2)-(r1*r1*r1*r1)))/(4*r2))
-            dv.setText("$z")
+            val qq = String.format("%.2f", z)
+            dv.setText("$qq")
         }
 
 

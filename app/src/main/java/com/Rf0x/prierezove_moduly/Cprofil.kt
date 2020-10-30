@@ -30,7 +30,8 @@ class Cprofil : AppCompatActivity() {
             val h2 = ch2.text.toString().toFloat()
 
             val z =(((x1*(h1*h1))/6)-((x2*(h2*h2*h2))/(6*h1)))
-           cv.setText("$z")
+            val qq = String.format("%.2f", z)
+           cv.setText("$qq")
         }
 
 

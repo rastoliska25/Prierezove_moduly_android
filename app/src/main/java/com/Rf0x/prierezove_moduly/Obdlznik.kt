@@ -19,8 +19,9 @@ class Obdlznik : AppCompatActivity() {
         vypocet2.setOnClickListener {
             val x = ox.text.toString().toFloat()
             val y = oy.text.toString().toFloat()
-           val z = (x*(y*y))/6
-          ov.setText("$z")
+            val z = (x * (y * y)) / 6
+            val qq = String.format("%.2f", z)
+            ov.setText("$qq")
         }
 
 

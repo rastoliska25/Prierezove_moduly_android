@@ -29,7 +29,8 @@ class Iprofil : AppCompatActivity() {
             val y = iy.text.toString().toFloat()
 
            val z =(((y*(h1*h1))/6)-((2*x*(h2*h2*h2))/(6*h1)))
-            iv.setText("$z")
+            val qq = String.format("%.2f", z)
+            iv.setText("$qq")
         }
 
 

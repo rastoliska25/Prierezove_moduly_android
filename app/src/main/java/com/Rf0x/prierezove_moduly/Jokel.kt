@@ -31,7 +31,8 @@ class Jokel  : AppCompatActivity() {
             val h2 = jh2.text.toString().toFloat()
 
             val z =(((x1*(h1*h1))/6)-((x2*(h2*h2*h2))/(6*h1)))
-            jv.setText("$z")
+            val qq = String.format("%.2f", z)
+            jv.setText("$qq")
         }
 
 

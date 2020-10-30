@@ -23,7 +23,8 @@ class Kruh : AppCompatActivity() {
             val r = kr.text.toString().toFloat()
             val d = 2*r
             val z =((pi*(d*d*d))/32)
-            kv.setText("$z")
+            val qq = String.format("%.2f", z)
+            kv.setText("$qq")
         }
 
         nazad.setOnClickListener {
