@@ -81,4 +81,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/c" />
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/o"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/o" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="129dp"
+        android:layout_height="112dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/k"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/k" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
