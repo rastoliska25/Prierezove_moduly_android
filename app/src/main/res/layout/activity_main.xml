@@ -5,6 +5,7 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
 
@@ -12,9 +13,9 @@
         android:id="@+id/cx1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PRIEREZOVÉ MODULY"
+        android:text="PRIEREZOVÉ MODULY V OHYBE"
         android:textColor="#191212"
-        android:textSize="30sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,5 +100,43 @@
         app:layout_constraintBottom_toTopOf="@+id/k"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/k" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="140dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/d"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/d" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="121dp"
+        android:layout_height="139dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/c" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="125dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/i"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/i" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="148dp"
+        android:layout_height="135dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/c"
+        app:srcCompat="@drawable/j" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
