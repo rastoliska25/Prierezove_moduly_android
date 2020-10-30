@@ -39,6 +39,8 @@ class Iprofil : AppCompatActivity() {
 
 
         nazad.setOnClickListener {
+            finishAndRemoveTask()
+            finishAffinity()
             val yy = Intent(this, MainActivity::class.java)
             startActivity(yy)
 

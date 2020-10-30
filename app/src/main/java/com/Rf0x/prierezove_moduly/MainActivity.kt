@@ -3,9 +3,11 @@ package com.Rf0x.prierezove_moduly
 import android.content.Intent
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.AbsListView
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlin.system.exitProcess
 
 
 class MainActivity : AppCompatActivity() {
@@ -52,15 +54,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(x5)
         }
 
+
         exit.setOnClickListener {
-            finishAffinity();
+
+            finishAndRemoveTask();
+            finishAffinity()
             System.exit(0);
+
         }
-
-
-
-
-
     }
 
 

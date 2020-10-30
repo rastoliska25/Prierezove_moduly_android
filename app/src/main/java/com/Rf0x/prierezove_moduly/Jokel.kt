@@ -40,7 +40,8 @@ class Jokel : AppCompatActivity() {
 
 
         nazad.setOnClickListener {
-            setContentView(R.layout.activity_main)
+            finishAndRemoveTask()
+            finishAffinity()
             val yy = Intent(this, MainActivity::class.java)
             startActivity(yy)
 
